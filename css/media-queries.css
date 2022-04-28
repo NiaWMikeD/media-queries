@@ -4,15 +4,50 @@
 div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+
 }
 
 .alert-info {
+    border: 2px solid lightgrey;
+    padding: 1em 4em 1em 4em;
+    background-color: #aae6f6;
+    color: black;
 
+
+}
+.alert-info a {
+    color: black;
+    text-decoration: none;
+}
+/*.ul {*/
+/*    border: 2px solid lightgrey;*/
+/*    width: 80%;*/
+/*    height: 30px;*/
+/*    padding-top: 12px;*/
+/*    padding-left: 10px;*/
+/*    margin-top: 8px;*/
+/*    margin-bottom: 8px;*/
+/*}*/
+/*.nav {*/
+/*    padding: 0;*/
+/*    height: 100%;*/
+
+li {
+    background: grey;
+    margin: 10px 0px;
+    padding: 1em;
+}
+
+body {
+    text-align: center;
 }
 
 .nav-links {
+
     list-style-type: none;
+    padding: 0;
+    text-align: center;
 }
 
 .main {
